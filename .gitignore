@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Node / React
+node_modules/
+dist/
+build/
+.output/
+
+# Environment and secrets
+.env
+.env.local
+*.key
+*.pem
+
+# SQLite database and cache
+*.db
+*.sqlite
+audio_cache/
+evals/cache/
+.pytest_cache/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

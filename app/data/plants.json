@@ -1,0 +1,6025 @@
+[
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "local_names": {
+      "hindi": "Tamatar",
+      "marathi": "Tamata"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained sandy loam rich in organic matter",
+    "start_method": "seedling",
+    "days_to_germinate": 6,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil",
+      "Carrot"
+    ],
+    "bad_neighbours": [
+      "Potato",
+      "Cabbage",
+      "Fennel"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Fruit borer",
+      "Whiteflies"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "chilli",
+    "name": "Chilli",
+    "local_names": {
+      "hindi": "Mirchi",
+      "marathi": "Mirchi"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Fertile well-drained loamy soil",
+    "start_method": "seedling",
+    "days_to_germinate": 8,
+    "days_to_harvest": 80,
+    "container_friendly": true,
+    "companions": [
+      "Basil",
+      "Okra",
+      "Marigold"
+    ],
+    "bad_neighbours": [
+      "Fennel",
+      "Kohlrabi"
+    ],
+    "common_pests": [
+      "Thrips",
+      "Mites",
+      "Aphids"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "spinach",
+    "name": "Spinach",
+    "local_names": {
+      "hindi": "Palak",
+      "marathi": "Palak"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Moist nitrogen-rich organic soil",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 35,
+    "container_friendly": true,
+    "companions": [
+      "Strawberry",
+      "Radish",
+      "Onion"
+    ],
+    "bad_neighbours": [
+      "Potato"
+    ],
+    "common_pests": [
+      "Leaf miners",
+      "Slugs"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "coriander",
+    "name": "Coriander",
+    "local_names": {
+      "hindi": "Dhania",
+      "marathi": "Kothimbir"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Light loamy moist soil",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Spinach",
+      "Tomato"
+    ],
+    "bad_neighbours": [
+      "Fennel"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Powdery mildew"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "local_names": {
+      "hindi": "Pudina",
+      "marathi": "Pudina"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Moist rich humus soil",
+    "start_method": "cutting",
+    "days_to_germinate": 7,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Cabbage",
+      "Tomato"
+    ],
+    "bad_neighbours": [
+      "Parsley"
+    ],
+    "common_pests": [
+      "Spider mites",
+      "Mint rust"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "tulsi",
+    "name": "Tulsi",
+    "local_names": {
+      "hindi": "Tulsi",
+      "marathi": "Tulsi"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained porous sandy soil",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Chilli",
+      "Tomato"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Mealybugs",
+      "Aphids"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "sweet-basil",
+    "name": "Sweet basil",
+    "local_names": {
+      "hindi": "Babui Tulsi",
+      "marathi": "Tulsi"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Moist well-drained rich soil",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Tomato",
+      "Pepper"
+    ],
+    "bad_neighbours": [
+      "Rue"
+    ],
+    "common_pests": [
+      "Fusarium wilt",
+      "Japanese beetles"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "okra",
+    "name": "Okra",
+    "local_names": {
+      "hindi": "Bhindi",
+      "marathi": "Bhendi"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Warm well-drained fertile loam",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Chilli",
+      "Eggplant",
+      "Melon"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Yellow vein mosaic",
+      "Fruit borer"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "cucumber",
+    "name": "Cucumber",
+    "local_names": {
+      "hindi": "Kheera",
+      "marathi": "Kakdi"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Rich organic moist loamy soil",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Beans",
+      "Sunflower",
+      "Corn"
+    ],
+    "bad_neighbours": [
+      "Potato",
+      "Aromatic herbs"
+    ],
+    "common_pests": [
+      "Downy mildew",
+      "Cucumber beetle"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "local_names": {
+      "hindi": "Mooli",
+      "marathi": "Mula"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Loose friable sandy soil",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 25,
+    "container_friendly": true,
+    "companions": [
+      "Spinach",
+      "Lettuce",
+      "Peas"
+    ],
+    "bad_neighbours": [
+      "Hyssop"
+    ],
+    "common_pests": [
+      "Flea beetles",
+      "Root maggots"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "local_names": {
+      "hindi": "Gajar",
+      "marathi": "Gajar"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Deep stoneless loose sandy loam",
+    "start_method": "seed",
+    "days_to_germinate": 12,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Rosetta lettuce",
+      "Rosemary",
+      "Tomato"
+    ],
+    "bad_neighbours": [
+      "Dill",
+      "Parsnips"
+    ],
+    "common_pests": [
+      "Carrot rust fly",
+      "Wireworms"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "lettuce",
+    "name": "Lettuce",
+    "local_names": {
+      "hindi": "Salad Patta",
+      "marathi": "Salad Leaf"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Cool moist humus rich soil",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Carrot",
+      "Radish",
+      "Strawberry"
+    ],
+    "bad_neighbours": [
+      "Celery"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Slugs"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "fenugreek",
+    "name": "Fenugreek",
+    "local_names": {
+      "hindi": "Methi",
+      "marathi": "Methi"
+    },
+    "category": "herb",
+    "temp_min": 10,
+    "temp_max": 27,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained loamy soil with neutral pH",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 21,
+    "container_friendly": true,
+    "companions": [
+      "Cucumbers",
+      "Root crops"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Powdery mildew",
+      "Root rot"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "brinjal",
+    "name": "Brinjal",
+    "local_names": {
+      "hindi": "Baingan",
+      "marathi": "Vangi"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Deep silt loam or clay loam rich in organic matter",
+    "start_method": "seedling",
+    "days_to_germinate": 8,
+    "days_to_harvest": 70,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Spinach",
+      "Beans"
+    ],
+    "bad_neighbours": [
+      "Fennel"
+    ],
+    "common_pests": [
+      "Shoot and fruit borer",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "bottle-gourd",
+    "name": "Bottle gourd",
+    "local_names": {
+      "hindi": "Lauki",
+      "marathi": "Dudhi"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Sandy loam well manured",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 60,
+    "container_friendly": false,
+    "companions": [
+      "Corn",
+      "Radish"
+    ],
+    "bad_neighbours": [
+      "Potato"
+    ],
+    "common_pests": [
+      "Fruit fly",
+      "Red pumpkin beetle"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "pumpkin",
+    "name": "Pumpkin",
+    "local_names": {
+      "hindi": "Kaddu",
+      "marathi": "Bhopla"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Rich organic warm soil",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 90,
+    "container_friendly": false,
+    "companions": [
+      "Corn",
+      "Beans",
+      "Marigold"
+    ],
+    "bad_neighbours": [
+      "Potato"
+    ],
+    "common_pests": [
+      "Squash vine borer",
+      "Powdery mildew"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "bitter-gourd",
+    "name": "Bitter gourd",
+    "local_names": {
+      "hindi": "Karela",
+      "marathi": "Karle"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 37,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well drained sandy loam rich in compost",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Beans",
+      "Maize"
+    ],
+    "bad_neighbours": [
+      "Potato"
+    ],
+    "common_pests": [
+      "Fruit fly",
+      "Epilachna beetle"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "french-beans",
+    "name": "French beans",
+    "local_names": {
+      "hindi": "Phasli",
+      "marathi": "Ghevda"
+    },
+    "category": "vegetable",
+    "temp_min": 15,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Moist well-drained light loam",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Carrot",
+      "Cucumber",
+      "Corn"
+    ],
+    "bad_neighbours": [
+      "Onion",
+      "Garlic"
+    ],
+    "common_pests": [
+      "Bean aphid",
+      "Anthracnose"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "peas",
+    "name": "Peas",
+    "local_names": {
+      "hindi": "Matar",
+      "marathi": "Watana"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained friable soil",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 65,
+    "container_friendly": true,
+    "companions": [
+      "Carrot",
+      "Radish",
+      "Turnip"
+    ],
+    "bad_neighbours": [
+      "Onion",
+      "Garlic"
+    ],
+    "common_pests": [
+      "Pea aphid",
+      "Powdery mildew"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "local_names": {
+      "hindi": "Patta Gobi",
+      "marathi": "Kobi"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Heavy nitrogen rich clay loam",
+    "start_method": "seedling",
+    "days_to_germinate": 7,
+    "days_to_harvest": 85,
+    "container_friendly": true,
+    "companions": [
+      "Mint",
+      "Celery",
+      "Onion"
+    ],
+    "bad_neighbours": [
+      "Tomato",
+      "Strawberry"
+    ],
+    "common_pests": [
+      "Diamondback moth",
+      "Cabbage worm"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "local_names": {
+      "hindi": "Phool Gobi",
+      "marathi": "Phoolkobi"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Deep fertile moisture-retentive loam",
+    "start_method": "seedling",
+    "days_to_germinate": 7,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Spinach",
+      "Beans"
+    ],
+    "bad_neighbours": [
+      "Tomato",
+      "Strawberry"
+    ],
+    "common_pests": [
+      "Aphids",
+      "Black rot"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "onion",
+    "name": "Onion",
+    "local_names": {
+      "hindi": "Pyaz",
+      "marathi": "Kanda"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Loose friable rich sandy loam",
+    "start_method": "seedling",
+    "days_to_germinate": 10,
+    "days_to_harvest": 110,
+    "container_friendly": true,
+    "companions": [
+      "Lettuce",
+      "Tomato",
+      "Beetroot"
+    ],
+    "bad_neighbours": [
+      "Peas",
+      "Beans"
+    ],
+    "common_pests": [
+      "Thrips",
+      "Onion maggot"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "spring-onion",
+    "name": "Spring onion",
+    "local_names": {
+      "hindi": "Hara Pyaz",
+      "marathi": "Kandyachi Pat"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Moist loamy soil with organic manure",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Carrot",
+      "Cabbage"
+    ],
+    "bad_neighbours": [
+      "Peas"
+    ],
+    "common_pests": [
+      "Downy mildew",
+      "Thrips"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "local_names": {
+      "hindi": "Aloo",
+      "marathi": "Batata"
+    },
+    "category": "vegetable",
+    "temp_min": 14,
+    "temp_max": 25,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Loose friable acidic sandy loam",
+    "start_method": "seed tuber",
+    "days_to_germinate": 14,
+    "days_to_harvest": 95,
+    "container_friendly": true,
+    "companions": [
+      "Corn",
+      "Beans",
+      "Marigold"
+    ],
+    "bad_neighbours": [
+      "Tomato",
+      "Cucumber",
+      "Pumpkin"
+    ],
+    "common_pests": [
+      "Late blight",
+      "Colorado beetle"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "beetroot",
+    "name": "Beetroot",
+    "local_names": {
+      "hindi": "Chukandar",
+      "marathi": "Beet"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Soft stoneless sandy soil",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Onion",
+      "Lettuce",
+      "Brassicas"
+    ],
+    "bad_neighbours": [
+      "Pole beans"
+    ],
+    "common_pests": [
+      "Flea beetles",
+      "Cercospora leaf spot"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "sweet-potato",
+    "name": "Sweet potato",
+    "local_names": {
+      "hindi": "Shakarkand",
+      "marathi": "Ratale"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained sandy loam",
+    "start_method": "cutting",
+    "days_to_germinate": 10,
+    "days_to_harvest": 110,
+    "container_friendly": true,
+    "companions": [
+      "Thyme",
+      "Dill"
+    ],
+    "bad_neighbours": [
+      "Squash"
+    ],
+    "common_pests": [
+      "Sweetpotato weevil"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "marigold",
+    "name": "Marigold",
+    "local_names": {
+      "hindi": "Genda",
+      "marathi": "Zendu"
+    },
+    "category": "flower",
+    "temp_min": 15,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Any moderately fertile well-drained soil",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Tomato",
+      "Eggplant",
+      "Potato",
+      "Chilli"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Red spider mites",
+      "Slugs"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "sunflower",
+    "name": "Sunflower",
+    "local_names": {
+      "hindi": "Surajmukhi",
+      "marathi": "Surajmukhi"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Nutrient rich well-drained soil",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 70,
+    "container_friendly": true,
+    "companions": [
+      "Cucumber",
+      "Squash"
+    ],
+    "bad_neighbours": [
+      "Potato"
+    ],
+    "common_pests": [
+      "Birds",
+      "Cutworms"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "lemongrass",
+    "name": "Lemongrass",
+    "local_names": {
+      "hindi": "Gawati Chai",
+      "marathi": "Gawati Chaha"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Moist rich loamy soil",
+    "start_method": "cutting",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Coriander",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Rust fungus"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "ridge-gourd",
+    "name": "Ridge Gourd",
+    "local_names": {
+      "hindi": "Turai",
+      "marathi": "Ghosale"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Ridge Gourd",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "snake-gourd",
+    "name": "Snake Gourd",
+    "local_names": {
+      "hindi": "Chichinda",
+      "marathi": "Padwal"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Snake Gourd",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 60,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "sponge-gourd",
+    "name": "Sponge Gourd",
+    "local_names": {
+      "hindi": "Nenua",
+      "marathi": "Ghosali"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 37,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Sponge Gourd",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "ash-gourd",
+    "name": "Ash Gourd",
+    "local_names": {
+      "hindi": "Petha",
+      "marathi": "Kohla"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Ash Gourd",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 90,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "ivy-gourd",
+    "name": "Ivy Gourd",
+    "local_names": {
+      "hindi": "Kundru",
+      "marathi": "Tandli"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Ivy Gourd",
+    "start_method": "seed",
+    "days_to_germinate": 12,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "cluster-beans",
+    "name": "Cluster Beans",
+    "local_names": {
+      "hindi": "Gwar Phali",
+      "marathi": "Gavar"
+    },
+    "category": "vegetable",
+    "temp_min": 24,
+    "temp_max": 40,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Cluster Beans",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "cowpea",
+    "name": "Cowpea / Yardlong Bean",
+    "local_names": {
+      "hindi": "Lobia",
+      "marathi": "Chavli"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Cowpea / Yardlong Bean",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "drumstick",
+    "name": "Moringa / Drumstick",
+    "local_names": {
+      "hindi": "Sahjan",
+      "marathi": "Shevga"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 40,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Moringa / Drumstick",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 180,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "elephant-foot-yam",
+    "name": "Elephant Foot Yam",
+    "local_names": {
+      "hindi": "Jimikand",
+      "marathi": "Suran"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Elephant Foot Yam",
+    "start_method": "seed",
+    "days_to_germinate": 20,
+    "days_to_harvest": 180,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "colocasia",
+    "name": "Taro Root / Colocasia",
+    "local_names": {
+      "hindi": "Arbi",
+      "marathi": "Alu"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Taro Root / Colocasia",
+    "start_method": "seed",
+    "days_to_germinate": 15,
+    "days_to_harvest": 120,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "amarantus-green",
+    "name": "Green Amaranth",
+    "local_names": {
+      "hindi": "Chaulai",
+      "marathi": "Math"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Green Amaranth",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 25,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "amaranth-red",
+    "name": "Red Amaranth",
+    "local_names": {
+      "hindi": "Lal Saag",
+      "marathi": "Lal Math"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Red Amaranth",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 25,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "mustard-greens",
+    "name": "Mustard Greens",
+    "local_names": {
+      "hindi": "Sarson",
+      "marathi": "Mohari Bhaji"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 24,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Mustard Greens",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "water-spinach",
+    "name": "Water Spinach",
+    "local_names": {
+      "hindi": "Kalmi Saag",
+      "marathi": "Kilmich"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Water Spinach",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "pointed-gourd",
+    "name": "Pointed Gourd",
+    "local_names": {
+      "hindi": "Parwal",
+      "marathi": "Parwal"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Pointed Gourd",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 80,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "turnip",
+    "name": "Turnip",
+    "local_names": {
+      "hindi": "Shalgam",
+      "marathi": "Shalgam"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Turnip",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "knol-khol",
+    "name": "Kohlrabi / Knol Khol",
+    "local_names": {
+      "hindi": "Ganth Gobi",
+      "marathi": "Nol Khol"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Kohlrabi / Knol Khol",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "sweet-corn",
+    "name": "Sweet Corn",
+    "local_names": {
+      "hindi": "Bhutta",
+      "marathi": "Makka"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Sweet Corn",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 75,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "capsicum-green",
+    "name": "Green Capsicum",
+    "local_names": {
+      "hindi": "Shimla Mirch",
+      "marathi": "Dhobli Mirchi"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Green Capsicum",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "capsicum-red",
+    "name": "Red Bell Pepper",
+    "local_names": {
+      "hindi": "Lal Shimla Mirch",
+      "marathi": "Lal Dhobli Mirchi"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Red Bell Pepper",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 85,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "capsicum-yellow",
+    "name": "Yellow Bell Pepper",
+    "local_names": {
+      "hindi": "Peeli Shimla Mirch",
+      "marathi": "Pivli Dhobli Mirchi"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Yellow Bell Pepper",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 85,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "zucchini-green",
+    "name": "Green Zucchini",
+    "local_names": {
+      "hindi": "Zucchini",
+      "marathi": "Zucchini"
+    },
+    "category": "vegetable",
+    "temp_min": 16,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Green Zucchini",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "zucchini-yellow",
+    "name": "Yellow Zucchini",
+    "local_names": {
+      "hindi": "Peeli Zucchini",
+      "marathi": "Pivli Zucchini"
+    },
+    "category": "vegetable",
+    "temp_min": 16,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Yellow Zucchini",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "local_names": {
+      "hindi": "Broccoli",
+      "marathi": "Broccoli"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 22,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Broccoli",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 80,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "bok-choy",
+    "name": "Bok Choy",
+    "local_names": {
+      "hindi": "Chinese Cabbage",
+      "marathi": "Bok Choy"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 24,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Bok Choy",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "kale",
+    "name": "Curly Kale",
+    "local_names": {
+      "hindi": "Kale",
+      "marathi": "Kale"
+    },
+    "category": "vegetable",
+    "temp_min": 8,
+    "temp_max": 22,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Curly Kale",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "swiss-chard",
+    "name": "Swiss Chard",
+    "local_names": {
+      "hindi": "Swiss Chard",
+      "marathi": "Swiss Chard"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Swiss Chard",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "local_names": {
+      "hindi": "Lahsun",
+      "marathi": "Lassun"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Garlic",
+    "start_method": "seed",
+    "days_to_germinate": 12,
+    "days_to_harvest": 120,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "local_names": {
+      "hindi": "Adrak",
+      "marathi": "Aale"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Ginger",
+    "start_method": "seed",
+    "days_to_germinate": 15,
+    "days_to_harvest": 150,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "turmeric",
+    "name": "Turmeric",
+    "local_names": {
+      "hindi": "Haldi",
+      "marathi": "Halad"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Turmeric",
+    "start_method": "seed",
+    "days_to_germinate": 15,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "curry-leaves",
+    "name": "Curry Leaf Plant",
+    "local_names": {
+      "hindi": "Kadi Patta",
+      "marathi": "Kadi Patta"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Curry Leaf Plant",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "coriander-sawtooth",
+    "name": "Culantro / Sawtooth Herb",
+    "local_names": {
+      "hindi": "Bada Dhania",
+      "marathi": "Bap Dhania"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Culantro / Sawtooth Herb",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "thyme",
+    "name": "Thyme",
+    "local_names": {
+      "hindi": "Ajwain Patta",
+      "marathi": "Thyme"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Thyme",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "rosemary",
+    "name": "Rosemary",
+    "local_names": {
+      "hindi": "Rosemary",
+      "marathi": "Rosemary"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Rosemary",
+    "start_method": "seed",
+    "days_to_germinate": 18,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "local_names": {
+      "hindi": "Oregano",
+      "marathi": "Oregano"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Oregano",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "parsley",
+    "name": "Flat Leaf Parsley",
+    "local_names": {
+      "hindi": "Ajwain Khurasani",
+      "marathi": "Parsley"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Flat Leaf Parsley",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "dill",
+    "name": "Dill",
+    "local_names": {
+      "hindi": "Suva",
+      "marathi": "Shepu"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Dill",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "local_names": {
+      "hindi": "Ajmoda",
+      "marathi": "Celery"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Celery",
+    "start_method": "seed",
+    "days_to_germinate": 12,
+    "days_to_harvest": 85,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "sage",
+    "name": "Garden Sage",
+    "local_names": {
+      "hindi": "Sage",
+      "marathi": "Sage"
+    },
+    "category": "herb",
+    "temp_min": 14,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Garden Sage",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "marjoram",
+    "name": "Sweet Marjoram",
+    "local_names": {
+      "hindi": "Marwa",
+      "marathi": "Marwa"
+    },
+    "category": "herb",
+    "temp_min": 16,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Sweet Marjoram",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "chives",
+    "name": "Garlic Chives",
+    "local_names": {
+      "hindi": "Lahsuni Ghas",
+      "marathi": "Lassun Patta"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Garlic Chives",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "bay-leaf",
+    "name": "Indian Bay Leaf",
+    "local_names": {
+      "hindi": "Tejpatta",
+      "marathi": "Tamalpatra"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Indian Bay Leaf",
+    "start_method": "seed",
+    "days_to_germinate": 20,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "betel-leaf",
+    "name": "Betel Leaf",
+    "local_names": {
+      "hindi": "Paan",
+      "marathi": "Khavayachi Paan"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Betel Leaf",
+    "start_method": "seed",
+    "days_to_germinate": 15,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "stevia",
+    "name": "Stevia / Sweet Leaf",
+    "local_names": {
+      "hindi": "Meethi Tulsi",
+      "marathi": "Stevia"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Stevia / Sweet Leaf",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "brahmi",
+    "name": "Brahmi / Gotu Kola",
+    "local_names": {
+      "hindi": "Brahmi",
+      "marathi": "Brahmi"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Brahmi / Gotu Kola",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "ashwagandha",
+    "name": "Ashwagandha",
+    "local_names": {
+      "hindi": "Ashwagandha",
+      "marathi": "Asgandh"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Ashwagandha",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 150,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "aloe-vera",
+    "name": "Aloe Vera",
+    "local_names": {
+      "hindi": "Gritkumari",
+      "marathi": "Korphad"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 40,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Aloe Vera",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "vetiver",
+    "name": "Vetiver / Khus",
+    "local_names": {
+      "hindi": "Khus",
+      "marathi": "Wala"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 42,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Vetiver / Khus",
+    "start_method": "seed",
+    "days_to_germinate": 15,
+    "days_to_harvest": 120,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "chamomile",
+    "name": "German Chamomile",
+    "local_names": {
+      "hindi": "Babuna",
+      "marathi": "Chamomile"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for German Chamomile",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 65,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "lavender",
+    "name": "Lavender",
+    "local_names": {
+      "hindi": "Lavender",
+      "marathi": "Lavender"
+    },
+    "category": "herb",
+    "temp_min": 14,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Lavender",
+    "start_method": "seed",
+    "days_to_germinate": 18,
+    "days_to_harvest": 120,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "local_names": {
+      "hindi": "Strawberry",
+      "marathi": "Strawberry"
+    },
+    "category": "fruit",
+    "temp_min": 10,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Strawberry",
+    "start_method": "seedling",
+    "days_to_germinate": 10,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "papaya",
+    "name": "Dwarf Papaya",
+    "local_names": {
+      "hindi": "Papita",
+      "marathi": "Popai"
+    },
+    "category": "fruit",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Dwarf Papaya",
+    "start_method": "seedling",
+    "days_to_germinate": 14,
+    "days_to_harvest": 240,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "guava-dwarf",
+    "name": "Dwarf Guava",
+    "local_names": {
+      "hindi": "Amrood",
+      "marathi": "Peru"
+    },
+    "category": "fruit",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Dwarf Guava",
+    "start_method": "seedling",
+    "days_to_germinate": 15,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "pomegranate-dwarf",
+    "name": "Dwarf Pomegranate",
+    "local_names": {
+      "hindi": "Anar",
+      "marathi": "Dalimb"
+    },
+    "category": "fruit",
+    "temp_min": 18,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Dwarf Pomegranate",
+    "start_method": "seedling",
+    "days_to_germinate": 15,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "fig",
+    "name": "Dwarf Fig",
+    "local_names": {
+      "hindi": "Anjeer",
+      "marathi": "Anjeer"
+    },
+    "category": "fruit",
+    "temp_min": 16,
+    "temp_max": 36,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Dwarf Fig",
+    "start_method": "seedling",
+    "days_to_germinate": 14,
+    "days_to_harvest": 150,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "lemon",
+    "name": "Acid Lime / Lemon",
+    "local_names": {
+      "hindi": "Nimbu",
+      "marathi": "Limbu"
+    },
+    "category": "fruit",
+    "temp_min": 18,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Acid Lime / Lemon",
+    "start_method": "seedling",
+    "days_to_germinate": 14,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "dragon-fruit",
+    "name": "Dragon Fruit",
+    "local_names": {
+      "hindi": "Dragon Fruit",
+      "marathi": "Dragon Fruit"
+    },
+    "category": "fruit",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Dragon Fruit",
+    "start_method": "seedling",
+    "days_to_germinate": 14,
+    "days_to_harvest": 240,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "passion-fruit",
+    "name": "Passion Fruit",
+    "local_names": {
+      "hindi": "Krishna Kamal Fruit",
+      "marathi": "Passion Fruit"
+    },
+    "category": "fruit",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Passion Fruit",
+    "start_method": "seedling",
+    "days_to_germinate": 12,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "water-melon",
+    "name": "Mini Watermelon",
+    "local_names": {
+      "hindi": "Tarbooz",
+      "marathi": "Kalingad"
+    },
+    "category": "fruit",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Mini Watermelon",
+    "start_method": "seedling",
+    "days_to_germinate": 6,
+    "days_to_harvest": 80,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "musk-melon",
+    "name": "Muskmelon / Cantaloupe",
+    "local_names": {
+      "hindi": "Kharbooza",
+      "marathi": "Kharbuj"
+    },
+    "category": "fruit",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Muskmelon / Cantaloupe",
+    "start_method": "seedling",
+    "days_to_germinate": 6,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "zinnia",
+    "name": "Zinnia",
+    "local_names": {
+      "hindi": "Zinnia",
+      "marathi": "Zinnia"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Zinnia",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "balsam",
+    "name": "Garden Balsam",
+    "local_names": {
+      "hindi": "Gulmendhi",
+      "marathi": "Terda"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Well-drained suitable soil for Garden Balsam",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "local_names": {
+      "hindi": "Cosmos",
+      "marathi": "Cosmos"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Cosmos",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "petunia",
+    "name": "Petunia",
+    "local_names": {
+      "hindi": "Petunia",
+      "marathi": "Petunia"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Petunia",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "chrysanthemum",
+    "name": "Chrysanthemum",
+    "local_names": {
+      "hindi": "Guldaudi",
+      "marathi": "Shevanti"
+    },
+    "category": "flower",
+    "temp_min": 14,
+    "temp_max": 26,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Chrysanthemum",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "calendula",
+    "name": "Calendula / Pot Marigold",
+    "local_names": {
+      "hindi": "Zendu Chameli",
+      "marathi": "Calendula"
+    },
+    "category": "flower",
+    "temp_min": 10,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Calendula / Pot Marigold",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "portulaca",
+    "name": "Portulaca / Moss Rose",
+    "local_names": {
+      "hindi": "Nou Bajiya",
+      "marathi": "Moss Rose"
+    },
+    "category": "flower",
+    "temp_min": 22,
+    "temp_max": 40,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Portulaca / Moss Rose",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "gomphrena",
+    "name": "Gomphrena / Globe Amaranth",
+    "local_names": {
+      "hindi": "Gupool",
+      "marathi": "Gomphrena"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Gomphrena / Globe Amaranth",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "nasturtium",
+    "name": "Nasturtium",
+    "local_names": {
+      "hindi": "Nasturtium",
+      "marathi": "Nasturtium"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Nasturtium",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "blanket-flower",
+    "name": "Gaillardia / Blanket Flower",
+    "local_names": {
+      "hindi": "Gaillardia",
+      "marathi": "Gaillardia"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Well-drained suitable soil for Gaillardia / Blanket Flower",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-radish",
+    "name": "Radish Microgreens",
+    "local_names": {
+      "hindi": "Mooli Ankur",
+      "marathi": "Mula Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 15,
+    "temp_max": 30,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Radish Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-mustard",
+    "name": "Mustard Microgreens",
+    "local_names": {
+      "hindi": "Sarson Ankur",
+      "marathi": "Mohari Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 15,
+    "temp_max": 30,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Mustard Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-broccoli",
+    "name": "Broccoli Microgreens",
+    "local_names": {
+      "hindi": "Broccoli Ankur",
+      "marathi": "Broccoli Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 14,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Broccoli Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 10,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-sunflower",
+    "name": "Sunflower Microgreens",
+    "local_names": {
+      "hindi": "Surajmukhi Ankur",
+      "marathi": "Surajmukhi Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 16,
+    "temp_max": 30,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Sunflower Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 10,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-pea",
+    "name": "Pea Shoots Microgreens",
+    "local_names": {
+      "hindi": "Matar Ankur",
+      "marathi": "Watana Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Pea Shoots Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 12,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-wheatgrass",
+    "name": "Wheatgrass",
+    "local_names": {
+      "hindi": "Gehun Ankur",
+      "marathi": "Gahu Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 15,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Wheatgrass",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 9,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-chia",
+    "name": "Chia Microgreens",
+    "local_names": {
+      "hindi": "Chia Ankur",
+      "marathi": "Chia Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 16,
+    "temp_max": 32,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Chia Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 7,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-alfalfa",
+    "name": "Alfalfa Microgreens",
+    "local_names": {
+      "hindi": "Alfalfa Ankur",
+      "marathi": "Alfalfa Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 15,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Alfalfa Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-beet",
+    "name": "Beet Microgreens",
+    "local_names": {
+      "hindi": "Chukandar Ankur",
+      "marathi": "Beet Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 15,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Beet Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 12,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-basil",
+    "name": "Basil Microgreens",
+    "local_names": {
+      "hindi": "Tulsi Ankur",
+      "marathi": "Tulsi Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Well-drained suitable soil for Basil Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 14,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Basil"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "chilli-birdseye",
+    "name": "Bird Eye Chilli",
+    "local_names": {
+      "hindi": "Kanthari Mirch",
+      "marathi": "Lavangi Mirchi"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Bird Eye Chilli",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 85,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "chilli-jalapeno",
+    "name": "Jalapeño Pepper",
+    "local_names": {
+      "hindi": "Jalapeno Mirch",
+      "marathi": "Jalapeno"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Jalapeño Pepper",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "tomato-cherry",
+    "name": "Cherry Tomato",
+    "local_names": {
+      "hindi": "Chota Tamatar",
+      "marathi": "Lahan Tamata"
+    },
+    "category": "vegetable",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Cherry Tomato",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "tomato-plum",
+    "name": "Plum Tomato",
+    "local_names": {
+      "hindi": "Desi Tamatar",
+      "marathi": "Desi Tamata"
+    },
+    "category": "vegetable",
+    "temp_min": 16,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Plum Tomato",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "eggplant-mini",
+    "name": "Mini Purple Eggplant",
+    "local_names": {
+      "hindi": "Chota Baingan",
+      "marathi": "Lahan Vangi"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Mini Purple Eggplant",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "spinach-malabar",
+    "name": "Malabar Spinach / Basella",
+    "local_names": {
+      "hindi": "Poi Saag",
+      "marathi": "Mayalu"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Malabar Spinach / Basella",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "amaranth-green-stem",
+    "name": "Stem Amaranth",
+    "local_names": {
+      "hindi": "Data Saag",
+      "marathi": "Math Stem"
+    },
+    "category": "vegetable",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Stem Amaranth",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 35,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "cabbage-red",
+    "name": "Red Cabbage",
+    "local_names": {
+      "hindi": "Lal Patta Gobi",
+      "marathi": "Lal Kobi"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Red Cabbage",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "cauliflower-purple",
+    "name": "Purple Cauliflower",
+    "local_names": {
+      "hindi": "Baingani Phool Gobi",
+      "marathi": "Jambhli Phoolkobi"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Purple Cauliflower",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "radish-red",
+    "name": "Red Globe Radish",
+    "local_names": {
+      "hindi": "Lal Mooli",
+      "marathi": "Lal Mula"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Red Globe Radish",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 22,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "radish-black",
+    "name": "Black Radish",
+    "local_names": {
+      "hindi": "Kali Mooli",
+      "marathi": "Kala Mula"
+    },
+    "category": "vegetable",
+    "temp_min": 8,
+    "temp_max": 22,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Black Radish",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "carrot-black",
+    "name": "Black / Purple Carrot",
+    "local_names": {
+      "hindi": "Kala Gajar",
+      "marathi": "Kala Gajar"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Black / Purple Carrot",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 80,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "carrot-red",
+    "name": "Desi Red Carrot",
+    "local_names": {
+      "hindi": "Desi Gajar",
+      "marathi": "Desi Gajar"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Desi Red Carrot",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 75,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "sweet-potato-purple",
+    "name": "Purple Sweet Potato",
+    "local_names": {
+      "hindi": "Baingani Shakarkand",
+      "marathi": "Jambhli Ratale"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Purple Sweet Potato",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 110,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "basil-thai",
+    "name": "Thai Basil",
+    "local_names": {
+      "hindi": "Thai Tulsi",
+      "marathi": "Thai Tulsi"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Thai Basil",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "basil-holy-purple",
+    "name": "Krishna Tulsi / Purple Tulsi",
+    "local_names": {
+      "hindi": "Shyama Tulsi",
+      "marathi": "Krishna Tulsi"
+    },
+    "category": "herb",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Krishna Tulsi / Purple Tulsi",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "mint-spearmint",
+    "name": "Spearmint",
+    "local_names": {
+      "hindi": "Pahari Pudina",
+      "marathi": "Spearmint"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 30,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Spearmint",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "mint-peppermint",
+    "name": "Peppermint",
+    "local_names": {
+      "hindi": "Teekha Pudina",
+      "marathi": "Peppermint"
+    },
+    "category": "herb",
+    "temp_min": 12,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Peppermint",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-cabbage",
+    "name": "Red Cabbage Microgreens",
+    "local_names": {
+      "hindi": "Lal Gobi Ankur",
+      "marathi": "Lal Kobi Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Red Cabbage Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-kohlrabi",
+    "name": "Kohlrabi Microgreens",
+    "local_names": {
+      "hindi": "Ganth Gobi Ankur",
+      "marathi": "Nol Khol Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Kohlrabi Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-fenugreek",
+    "name": "Methi Microgreens",
+    "local_names": {
+      "hindi": "Methi Ankur",
+      "marathi": "Methi Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Methi Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 6,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-amaranth",
+    "name": "Red Amaranth Microgreens",
+    "local_names": {
+      "hindi": "Lal Saag Ankur",
+      "marathi": "Lal Math Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Red Amaranth Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-onion",
+    "name": "Onion Microgreens",
+    "local_names": {
+      "hindi": "Pyaz Ankur",
+      "marathi": "Kanda Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Onion Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 12,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-coriander",
+    "name": "Coriander Microgreens",
+    "local_names": {
+      "hindi": "Dhania Ankur",
+      "marathi": "Kothimbir Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 14,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Coriander Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 14,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-arugula",
+    "name": "Arugula Microgreens",
+    "local_names": {
+      "hindi": "Arugula Ankur",
+      "marathi": "Arugula Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Arugula Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 7,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-kale",
+    "name": "Kale Microgreens",
+    "local_names": {
+      "hindi": "Kale Ankur",
+      "marathi": "Kale Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Kale Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-sorrel",
+    "name": "Red Veined Sorrel Microgreens",
+    "local_names": {
+      "hindi": "Khatta Saag Ankur",
+      "marathi": "Ambat Chuka Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 14,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Red Veined Sorrel Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 3,
+    "days_to_harvest": 12,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-parsley",
+    "name": "Parsley Microgreens",
+    "local_names": {
+      "hindi": "Parsley Ankur",
+      "marathi": "Parsley Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Parsley Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 14,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-clover",
+    "name": "Clover Microgreens",
+    "local_names": {
+      "hindi": "Clover Ankur",
+      "marathi": "Clover Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Clover Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 7,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "micro-collard",
+    "name": "Collard Greens Microgreens",
+    "local_names": {
+      "hindi": "Collard Ankur",
+      "marathi": "Collard Ankur"
+    },
+    "category": "microgreen",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Collard Greens Microgreens",
+    "start_method": "seed",
+    "days_to_germinate": 2,
+    "days_to_harvest": 8,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "cucumber-bush",
+    "name": "Bush Cucumber",
+    "local_names": {
+      "hindi": "Chota Kheera",
+      "marathi": "Lahan Kakdi"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 34,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Bush Cucumber",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "cucumber-lemon",
+    "name": "Lemon Cucumber",
+    "local_names": {
+      "hindi": "Peela Kheera",
+      "marathi": "Pivli Kakdi"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 34,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Lemon Cucumber",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Zaid"
+  },
+  {
+    "id": "french-beans-pole",
+    "name": "Pole French Beans",
+    "local_names": {
+      "hindi": "Lambi Phasli",
+      "marathi": "Lamb Ghevda"
+    },
+    "category": "vegetable",
+    "temp_min": 16,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Pole French Beans",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 60,
+    "container_friendly": false,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "peas-snow",
+    "name": "Snow Peas / Mangetout",
+    "local_names": {
+      "hindi": "Mitha Matar",
+      "marathi": "Moth Watana"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 20,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Snow Peas / Mangetout",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "peas-sugar-snap",
+    "name": "Sugar Snap Peas",
+    "local_names": {
+      "hindi": "Mitha Chota Matar",
+      "marathi": "Sakhar Watana"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Sugar Snap Peas",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "sorrel",
+    "name": "Sorrel / Sorrel Greens",
+    "local_names": {
+      "hindi": "Khatta Palak",
+      "marathi": "Ambat Chuka"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Sorrel / Sorrel Greens",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "purslane",
+    "name": "Purslane",
+    "local_names": {
+      "hindi": "Kulfa",
+      "marathi": "Ghol"
+    },
+    "category": "vegetable",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Purslane",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "arugula",
+    "name": "Arugula / Rocket",
+    "local_names": {
+      "hindi": "Rocket Leaf",
+      "marathi": "Arugula"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 24,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Arugula / Rocket",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "watercress",
+    "name": "Watercress",
+    "local_names": {
+      "hindi": "Jal Kumbhi",
+      "marathi": "Jal Kumbhi"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Watercress",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "dill-greens",
+    "name": "Dill Leaf Greens",
+    "local_names": {
+      "hindi": "Suva Saag",
+      "marathi": "Shepu Bhaji"
+    },
+    "category": "vegetable",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dill Leaf Greens",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "spinach-orach",
+    "name": "Orach / Mountain Spinach",
+    "local_names": {
+      "hindi": "Pahari Palak",
+      "marathi": "Pahari Palak"
+    },
+    "category": "vegetable",
+    "temp_min": 10,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Orach / Mountain Spinach",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 35,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "fenugreek-kasuri",
+    "name": "Kasuri Methi",
+    "local_names": {
+      "hindi": "Kasuri Methi",
+      "marathi": "Kasuri Methi"
+    },
+    "category": "herb",
+    "temp_min": 10,
+    "temp_max": 26,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Kasuri Methi",
+    "start_method": "seed",
+    "days_to_germinate": 4,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "dwarf-banana",
+    "name": "Dwarf Cavendish Banana",
+    "local_names": {
+      "hindi": "Kela",
+      "marathi": "Keli"
+    },
+    "category": "fruit",
+    "temp_min": 22,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Cavendish Banana",
+    "start_method": "cutting",
+    "days_to_germinate": 20,
+    "days_to_harvest": 300,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "dwarf-chiku",
+    "name": "Dwarf Chikoo / Sapodilla",
+    "local_names": {
+      "hindi": "Chiku",
+      "marathi": "Chiku"
+    },
+    "category": "fruit",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Chikoo / Sapodilla",
+    "start_method": "cutting",
+    "days_to_germinate": 15,
+    "days_to_harvest": 240,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "dwarf-mango",
+    "name": "Amrapali Dwarf Mango",
+    "local_names": {
+      "hindi": "Aam",
+      "marathi": "Amba"
+    },
+    "category": "fruit",
+    "temp_min": 22,
+    "temp_max": 40,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Amrapali Dwarf Mango",
+    "start_method": "cutting",
+    "days_to_germinate": 20,
+    "days_to_harvest": 365,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "mulberry-dwarf",
+    "name": "Dwarf Mulberry",
+    "local_names": {
+      "hindi": "Shahtoot",
+      "marathi": "Tuti"
+    },
+    "category": "fruit",
+    "temp_min": 18,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Mulberry",
+    "start_method": "cutting",
+    "days_to_germinate": 12,
+    "days_to_harvest": 120,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "star-fruit-dwarf",
+    "name": "Dwarf Starfruit / Carambola",
+    "local_names": {
+      "hindi": "Kamaranga",
+      "marathi": "Karambal"
+    },
+    "category": "fruit",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Starfruit / Carambola",
+    "start_method": "cutting",
+    "days_to_germinate": 15,
+    "days_to_harvest": 180,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "rose-miniature",
+    "name": "Miniature Rose",
+    "local_names": {
+      "hindi": "Gulab",
+      "marathi": "Gulab"
+    },
+    "category": "flower",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Miniature Rose",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "jasmine",
+    "name": "Arabian Jasmine",
+    "local_names": {
+      "hindi": "Mogra",
+      "marathi": "Mogra"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Arabian Jasmine",
+    "start_method": "seed",
+    "days_to_germinate": 12,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "hibiscus",
+    "name": "Shoeblack Hibiscus",
+    "local_names": {
+      "hindi": "Gurhal",
+      "marathi": "Jaswand"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Shoeblack Hibiscus",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "periwinkle",
+    "name": "Madagascar Periwinkle",
+    "local_names": {
+      "hindi": "Sadabahar",
+      "marathi": "Sadaphuli"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 40,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Madagascar Periwinkle",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "balsam-double",
+    "name": "Double Rose Balsam",
+    "local_names": {
+      "hindi": "Lal Gulmendhi",
+      "marathi": "Lal Terda"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Double Rose Balsam",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "marigold-french",
+    "name": "French Marigold",
+    "local_names": {
+      "hindi": "Chota Genda",
+      "marathi": "Lahan Zendu"
+    },
+    "category": "flower",
+    "temp_min": 15,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for French Marigold",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "dahlia-dwarf",
+    "name": "Dwarf Dahlia",
+    "local_names": {
+      "hindi": "Dahlia",
+      "marathi": "Dahlia"
+    },
+    "category": "flower",
+    "temp_min": 14,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Dahlia",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 65,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "verbena",
+    "name": "Garden Verbena",
+    "local_names": {
+      "hindi": "Verbena",
+      "marathi": "Verbena"
+    },
+    "category": "flower",
+    "temp_min": 15,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Garden Verbena",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "alyssum",
+    "name": "Sweet Alyssum",
+    "local_names": {
+      "hindi": "Alyssum",
+      "marathi": "Alyssum"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Sweet Alyssum",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "pansy",
+    "name": "Garden Pansy",
+    "local_names": {
+      "hindi": "Pansy",
+      "marathi": "Pansy"
+    },
+    "category": "flower",
+    "temp_min": 8,
+    "temp_max": 20,
+    "rain_tolerance": false,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Garden Pansy",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "snapdragon",
+    "name": "Snapdragon / Antirrhinum",
+    "local_names": {
+      "hindi": "Dog Flower",
+      "marathi": "Snapdragon"
+    },
+    "category": "flower",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Snapdragon / Antirrhinum",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 70,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "salvia",
+    "name": "Scarlet Salvia",
+    "local_names": {
+      "hindi": "Salvia",
+      "marathi": "Salvia"
+    },
+    "category": "flower",
+    "temp_min": 16,
+    "temp_max": 30,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Scarlet Salvia",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "torenia",
+    "name": "Wishbone Flower / Torenia",
+    "local_names": {
+      "hindi": "Torenia",
+      "marathi": "Torenia"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Wishbone Flower / Torenia",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "celosia",
+    "name": "Cockscomb Celosia",
+    "local_names": {
+      "hindi": "Murga Phool",
+      "marathi": "Celosia"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 36,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Cockscomb Celosia",
+    "start_method": "seed",
+    "days_to_germinate": 6,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "canna-dwarf",
+    "name": "Dwarf Canna Lily",
+    "local_names": {
+      "hindi": "Keli Phool",
+      "marathi": "Canna"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 38,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Canna Lily",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "chrysanthemum-dwarf",
+    "name": "Mini Chrysanthemum",
+    "local_names": {
+      "hindi": "Chota Guldaudi",
+      "marathi": "Lahan Shevanti"
+    },
+    "category": "flower",
+    "temp_min": 14,
+    "temp_max": 26,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Mini Chrysanthemum",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 70,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "gerbera",
+    "name": "Gerbera Daisy",
+    "local_names": {
+      "hindi": "Gerbera",
+      "marathi": "Gerbera"
+    },
+    "category": "flower",
+    "temp_min": 14,
+    "temp_max": 28,
+    "rain_tolerance": false,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Gerbera Daisy",
+    "start_method": "seed",
+    "days_to_germinate": 12,
+    "days_to_harvest": 80,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "gazania",
+    "name": "Treasure Flower / Gazania",
+    "local_names": {
+      "hindi": "Gazania",
+      "marathi": "Gazania"
+    },
+    "category": "flower",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Treasure Flower / Gazania",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "petunia-wave",
+    "name": "Trailing Petunia",
+    "local_names": {
+      "hindi": "Lata Petunia",
+      "marathi": "Petunia"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 26,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Trailing Petunia",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "zinnia-thumbelina",
+    "name": "Thumbelina Mini Zinnia",
+    "local_names": {
+      "hindi": "Choti Zinnia",
+      "marathi": "Lahan Zinnia"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Thumbelina Mini Zinnia",
+    "start_method": "seed",
+    "days_to_germinate": 5,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "sunflower-dwarf",
+    "name": "Teddy Bear Dwarf Sunflower",
+    "local_names": {
+      "hindi": "Chota Surajmukhi",
+      "marathi": "Lahan Surajmukhi"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Teddy Bear Dwarf Sunflower",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 55,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "morning-glory",
+    "name": "Morning Glory",
+    "local_names": {
+      "hindi": "Neelkamal",
+      "marathi": "Morning Glory"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Morning Glory",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "sweet-pea",
+    "name": "Sweet Pea Flower",
+    "local_names": {
+      "hindi": "Meethi Watana Phool",
+      "marathi": "Sweet Pea"
+    },
+    "category": "flower",
+    "temp_min": 10,
+    "temp_max": 22,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Sweet Pea Flower",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 65,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "carnation",
+    "name": "Dwarf Carnation",
+    "local_names": {
+      "hindi": "Gul-e-Khair",
+      "marathi": "Carnation"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 24,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dwarf Carnation",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 80,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "aster",
+    "name": "China Aster",
+    "local_names": {
+      "hindi": "Tara Phool",
+      "marathi": "Aster"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for China Aster",
+    "start_method": "seed",
+    "days_to_germinate": 8,
+    "days_to_harvest": 70,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "phlox",
+    "name": "Annual Phlox",
+    "local_names": {
+      "hindi": "Phlox",
+      "marathi": "Phlox"
+    },
+    "category": "flower",
+    "temp_min": 12,
+    "temp_max": 25,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Annual Phlox",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Rabi"
+  },
+  {
+    "id": "impatiens",
+    "name": "Busy Lizzie / Impatiens",
+    "local_names": {
+      "hindi": "Impatiens",
+      "marathi": "Impatiens"
+    },
+    "category": "flower",
+    "temp_min": 16,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Busy Lizzie / Impatiens",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "coleus",
+    "name": "Flame Nettle / Coleus",
+    "local_names": {
+      "hindi": "Coleus",
+      "marathi": "Coleus"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Flame Nettle / Coleus",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "caladium",
+    "name": "Elephant Ear / Caladium",
+    "local_names": {
+      "hindi": "Caladium",
+      "marathi": "Caladium"
+    },
+    "category": "flower",
+    "temp_min": 20,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Elephant Ear / Caladium",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "Kharif"
+  },
+  {
+    "id": "anthurium",
+    "name": "Flamingo Flower",
+    "local_names": {
+      "hindi": "Anthurium",
+      "marathi": "Anthurium"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 30,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Flamingo Flower",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "peace-lily",
+    "name": "Peace Lily",
+    "local_names": {
+      "hindi": "Peace Lily",
+      "marathi": "Peace Lily"
+    },
+    "category": "flower",
+    "temp_min": 18,
+    "temp_max": 30,
+    "rain_tolerance": false,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Peace Lily",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "spider-plant",
+    "name": "Spider Plant",
+    "local_names": {
+      "hindi": "Spider Plant",
+      "marathi": "Spider Plant"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Spider Plant",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "money-plant",
+    "name": "Devil's Ivy / Money Plant",
+    "local_names": {
+      "hindi": "Money Plant",
+      "marathi": "Money Plant"
+    },
+    "category": "herb",
+    "temp_min": 16,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Devil's Ivy / Money Plant",
+    "start_method": "seed",
+    "days_to_germinate": 7,
+    "days_to_harvest": 30,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "snake-plant",
+    "name": "Sansevieria / Snake Plant",
+    "local_names": {
+      "hindi": "Snake Plant",
+      "marathi": "Snake Plant"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 38,
+    "rain_tolerance": false,
+    "sun_needs": "partial_shade",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Sansevieria / Snake Plant",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "aglaonema",
+    "name": "Chinese Evergreen",
+    "local_names": {
+      "hindi": "Aglaonema",
+      "marathi": "Aglaonema"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Chinese Evergreen",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "syngonium",
+    "name": "Arrowhead Vine",
+    "local_names": {
+      "hindi": "Syngonium",
+      "marathi": "Syngonium"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Arrowhead Vine",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "philodendron",
+    "name": "Heartleaf Philodendron",
+    "local_names": {
+      "hindi": "Philodendron",
+      "marathi": "Philodendron"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Heartleaf Philodendron",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 40,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "zz-plant",
+    "name": "ZZ Plant",
+    "local_names": {
+      "hindi": "ZZ Plant",
+      "marathi": "ZZ Plant"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 36,
+    "rain_tolerance": false,
+    "sun_needs": "shade",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for ZZ Plant",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "rubber-plant",
+    "name": "Rubber Fig",
+    "local_names": {
+      "hindi": "Rubber Plant",
+      "marathi": "Rubber Plant"
+    },
+    "category": "herb",
+    "temp_min": 16,
+    "temp_max": 35,
+    "rain_tolerance": false,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Rubber Fig",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "jade-plant",
+    "name": "Jade Plant",
+    "local_names": {
+      "hindi": "Jade Plant",
+      "marathi": "Jade Plant"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 35,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Jade Plant",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "haworthia",
+    "name": "Zebra Succulent",
+    "local_names": {
+      "hindi": "Haworthia",
+      "marathi": "Haworthia"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "partial_shade",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Zebra Succulent",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "kalanchoe",
+    "name": "Flaming Katy Kalanchoe",
+    "local_names": {
+      "hindi": "Kalanchoe",
+      "marathi": "Kalanchoe"
+    },
+    "category": "flower",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "full_sun",
+    "water_need": "low",
+    "soil": "Organic rich well-drained soil suitable for Flaming Katy Kalanchoe",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "croton",
+    "name": "Garden Croton",
+    "local_names": {
+      "hindi": "Croton",
+      "marathi": "Croton"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "full_sun",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Garden Croton",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "dieffenbachia",
+    "name": "Dumb Cane",
+    "local_names": {
+      "hindi": "Dieffenbachia",
+      "marathi": "Dieffenbachia"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Dumb Cane",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 60,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "pothos-satin",
+    "name": "Satin Pothos",
+    "local_names": {
+      "hindi": "Satin Money Plant",
+      "marathi": "Satin Money Plant"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 32,
+    "rain_tolerance": false,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Satin Pothos",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "ferron-boston",
+    "name": "Boston Fern",
+    "local_names": {
+      "hindi": "Fern",
+      "marathi": "Fern"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 28,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "high",
+    "soil": "Organic rich well-drained soil suitable for Boston Fern",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 45,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "asparagus-fern",
+    "name": "Asparagus Fern",
+    "local_names": {
+      "hindi": "Shatavari Fern",
+      "marathi": "Shatavari Fern"
+    },
+    "category": "herb",
+    "temp_min": 15,
+    "temp_max": 32,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Asparagus Fern",
+    "start_method": "seed",
+    "days_to_germinate": 10,
+    "days_to_harvest": 50,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "bamboo-palm",
+    "name": "Bamboo Palm",
+    "local_names": {
+      "hindi": "Bamboo Palm",
+      "marathi": "Bamboo Palm"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 34,
+    "rain_tolerance": true,
+    "sun_needs": "shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Bamboo Palm",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  },
+  {
+    "id": "areca-palm",
+    "name": "Areca Palm",
+    "local_names": {
+      "hindi": "Areca Palm",
+      "marathi": "Areca Palm"
+    },
+    "category": "herb",
+    "temp_min": 18,
+    "temp_max": 35,
+    "rain_tolerance": true,
+    "sun_needs": "partial_shade",
+    "water_need": "medium",
+    "soil": "Organic rich well-drained soil suitable for Areca Palm",
+    "start_method": "seed",
+    "days_to_germinate": 14,
+    "days_to_harvest": 90,
+    "container_friendly": true,
+    "companions": [
+      "Marigold",
+      "Tulsi"
+    ],
+    "bad_neighbours": [],
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "season": "year-round"
+  }
+]
